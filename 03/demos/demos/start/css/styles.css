@@ -115,6 +115,32 @@ header {
   header h2 {
     font-size: 1.12rem;
     font-weight: 300; }
+  header ul.social li {
+    list-style: none;
+    float: left;
+    width: 25%; }
+  header ul.social li a {
+    display: block;
+    margin: 0 auto;
+    background-image: url("../images/socialSprites.png");
+    width: 45px;
+    height: 45px; }
+  header ul.social .facebook a {
+    background-position: -45px -45px; }
+  header ul.social .twitter a {
+    background-position: -90px -45px; }
+  header ul.social .youtube a {
+    background-position: -225px -45px; }
+  header ul.social .googleplus a {
+    background-position: -180px -45px; }
+  header ul.social .facebook a:hover {
+    background-position: -45px 0; }
+  header ul.social .twitter a:hover {
+    background-position: -90px 0; }
+  header ul.social .youtube a:hover {
+    background-position: -225px 0; }
+  header ul.social .googleplus a:hover {
+    background-position: -180px 0; }
 
 /*  ------------- NAV -------------  */
 nav {
@@ -148,24 +174,6 @@ main {
     font-size: 2rem;
     margin: 1.5rem 0 .5rem 0;
     color: #302b27; }
-  main .plum {
-    color: plum;
-    font-size: 8rem; }
-  main ul {
-    list-style: none; }
-  main ul li {
-    width: 50px;
-    height: 50px;
-    background-image: url("../images/SpritePractice.png");
-    background-position: 0 0; }
-  main ul li.blue {
-    background-position: 0 -100px; }
-  main ul li.bee {
-    background-position: -50px -50px; }
-  main ul li.one {
-    background-position: -100px 0; }
-  main ul li.one:hover {
-    background-position: -100px -50px; }
 
 /*  ------------- FOOTER -------------  */
 footer {
@@ -187,6 +195,15 @@ footer {
 
 @media only screen and (min-width: 35em) {
   /*-----HEADER SOCIAL ICONS-----*/
+  header {
+    position: relative; }
+    header ul.social {
+      position: absolute;
+      right: 2%;
+      bottom: .5rem; }
+    header ul.social li {
+      width: auto; }
+
   /*  ------------- MAIN -------------  */
   main .purple {
     color: purple; } }

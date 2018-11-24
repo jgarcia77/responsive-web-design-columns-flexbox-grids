@@ -1,9 +1,16 @@
 /*-----HEADER SOCIAL ICONS-----*/
 header {
-	
+    position: relative;
     
+    ul.social {
+        position: absolute;
+        right: $gutter;
+        bottom: .5rem;
+    }
     
-    
+    ul.social li {
+        width: auto;
+    }
     
 
 } // end header
