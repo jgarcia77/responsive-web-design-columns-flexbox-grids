@@ -148,6 +148,9 @@ main {
     font-size: 2rem;
     margin: 1.5rem 0 .5rem 0;
     color: #302b27; }
+  main .plum {
+    color: plum;
+    font-size: 8rem; }
   main ul {
     list-style: none; }
   main ul li {
@@ -184,7 +187,9 @@ footer {
 
 @media only screen and (min-width: 35em) {
   /*-----HEADER SOCIAL ICONS-----*/
-  /*  ------------- MAIN -------------  */ }
+  /*  ------------- MAIN -------------  */
+  main .purple {
+    color: purple; } }
 @media only screen and (min-width: 64em) {
   /*  ------------- NAV -------------  */
   nav ul {
@@ -199,6 +204,8 @@ footer {
 
   /*  ------------- MAIN -------------  */
   main {
-    margin: auto; } }
+    margin: auto; }
+    main .orange {
+      color: orange; } }
 
 /*# sourceMappingURL=styles.css.map */
