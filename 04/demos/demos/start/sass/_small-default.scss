@@ -94,9 +94,23 @@ main {
 		color: $primaryColor;
 	} // end h1
 	
-	
+	figure { width: 50%; }
+	figure img { width: 100%; }
     
-    
+    figure.ex1 img {
+		-webkit-clip-path: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
+	}
+
+	figure.ex2 img {
+		-webkit-clip-path: circle(100% at 0 0);
+		clip-path: circle(100% at 0 0);
+	}
+
+	figure.ex3 img {
+		-webkit-clip-path: circle(50% at 50% 0);
+		clip-path: circle(50% at 50% 0);
+	}
     
     
     

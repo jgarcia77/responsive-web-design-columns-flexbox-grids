@@ -148,6 +148,19 @@ main {
     font-size: 2rem;
     margin: 1.5rem 0 .5rem 0;
     color: #302b27; }
+  main figure {
+    width: 50%; }
+  main figure img {
+    width: 100%; }
+  main figure.ex1 img {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%); }
+  main figure.ex2 img {
+    -webkit-clip-path: circle(100% at 0 0);
+    clip-path: circle(100% at 0 0); }
+  main figure.ex3 img {
+    -webkit-clip-path: circle(50% at 50% 0);
+    clip-path: circle(50% at 50% 0); }
 
 /*  ------------- FOOTER -------------  */
 footer {
