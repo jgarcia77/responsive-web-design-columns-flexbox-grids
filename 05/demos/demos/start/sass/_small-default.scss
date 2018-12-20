@@ -94,9 +94,18 @@ main {
 	} // end p
 	
 	
+    div.container1 {
+		display: -ms-flex;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
     
-    
-    
+    div.container1 div {
+		-ms-flexbasis: 100%;
+		flex-basis: 100%;
+		padding: 1rem $gutter;
+	}
 	
 	
 	

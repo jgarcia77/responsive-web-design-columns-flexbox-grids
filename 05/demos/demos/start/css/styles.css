@@ -164,6 +164,15 @@ main {
     color: #4c443e; }
   main p {
     line-height: 130%; }
+  main div.container1 {
+    display: -ms-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  main div.container1 div {
+    -ms-flexbasis: 100%;
+    flex-basis: 100%;
+    padding: 1rem 2%; }
 
 /*  ------------- FOOTER -------------  */
 footer {
@@ -184,7 +193,10 @@ footer {
   clear: both; }
 
 @media only screen and (min-width: 35em) {
-  /*  ------------- MAIN -------------  */ }
+  /*  ------------- MAIN -------------  */
+  main div.container1 div {
+    -ms-flex: 46%;
+    flex-basis: 50%; } }
 @media only screen and (min-width: 64em) {
   /*  ------------- NAV -------------  */
   nav ul {
@@ -197,6 +209,9 @@ footer {
   nav ul li a {
     padding: .5rem 1rem; }
 
-  /*  ------------- MAIN -------------  */ }
+  /*  ------------- MAIN -------------  */
+  main div.container1 div {
+    -ms-flex: 29.333%;
+    flex-basis: 33.333%; } }
 
 /*# sourceMappingURL=styles.css.map */

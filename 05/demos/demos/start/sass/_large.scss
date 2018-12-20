@@ -18,6 +18,9 @@ nav {
 /*  ------------- MAIN -------------  */
 main {
 
-    
+    div.container1 div {
+        -ms-flex: 29.333%;
+        flex-basis: 33.333%;
+    }
     
 } // end main
