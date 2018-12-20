@@ -127,7 +127,17 @@ main {
 	} // end h1
 
 	
-    
+	.row { clear: both; }
+	
+	.column { padding: 0 $gutter; }
+
+	@for $i from 1 through 12 {
+		$w: ($i / 12) * 100%;
+		.small-#{$i} {
+			width: $w;
+			float: left;
+		}
+	}
     
     
     

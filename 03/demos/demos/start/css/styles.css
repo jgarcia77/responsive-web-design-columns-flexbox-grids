@@ -174,6 +174,46 @@ main {
     font-size: 2rem;
     margin: 1.5rem 0 .5rem 0;
     color: #302b27; }
+  main .row {
+    clear: both; }
+  main .column {
+    padding: 0 2%; }
+  main .small-1 {
+    width: 8.3333333333%;
+    float: left; }
+  main .small-2 {
+    width: 16.6666666667%;
+    float: left; }
+  main .small-3 {
+    width: 25%;
+    float: left; }
+  main .small-4 {
+    width: 33.3333333333%;
+    float: left; }
+  main .small-5 {
+    width: 41.6666666667%;
+    float: left; }
+  main .small-6 {
+    width: 50%;
+    float: left; }
+  main .small-7 {
+    width: 58.3333333333%;
+    float: left; }
+  main .small-8 {
+    width: 66.6666666667%;
+    float: left; }
+  main .small-9 {
+    width: 75%;
+    float: left; }
+  main .small-10 {
+    width: 83.3333333333%;
+    float: left; }
+  main .small-11 {
+    width: 91.6666666667%;
+    float: left; }
+  main .small-12 {
+    width: 100%;
+    float: left; }
 
 /*  ------------- FOOTER -------------  */
 footer {
@@ -206,7 +246,43 @@ footer {
 
   /*  ------------- MAIN -------------  */
   main .purple {
-    color: purple; } }
+    color: purple; }
+  main .medium-1 {
+    width: 8.3333333333%;
+    float: left; }
+  main .medium-2 {
+    width: 16.6666666667%;
+    float: left; }
+  main .medium-3 {
+    width: 25%;
+    float: left; }
+  main .medium-4 {
+    width: 33.3333333333%;
+    float: left; }
+  main .medium-5 {
+    width: 41.6666666667%;
+    float: left; }
+  main .medium-6 {
+    width: 50%;
+    float: left; }
+  main .medium-7 {
+    width: 58.3333333333%;
+    float: left; }
+  main .medium-8 {
+    width: 66.6666666667%;
+    float: left; }
+  main .medium-9 {
+    width: 75%;
+    float: left; }
+  main .medium-10 {
+    width: 83.3333333333%;
+    float: left; }
+  main .medium-11 {
+    width: 91.6666666667%;
+    float: left; }
+  main .medium-12 {
+    width: 100%;
+    float: left; } }
 @media only screen and (min-width: 64em) {
   /*  ------------- NAV -------------  */
   nav ul {
@@ -223,6 +299,42 @@ footer {
   main {
     margin: auto; }
     main .orange {
-      color: orange; } }
+      color: orange; }
+    main .large-1 {
+      width: 8.3333333333%;
+      float: left; }
+    main .large-2 {
+      width: 16.6666666667%;
+      float: left; }
+    main .large-3 {
+      width: 25%;
+      float: left; }
+    main .large-4 {
+      width: 33.3333333333%;
+      float: left; }
+    main .large-5 {
+      width: 41.6666666667%;
+      float: left; }
+    main .large-6 {
+      width: 50%;
+      float: left; }
+    main .large-7 {
+      width: 58.3333333333%;
+      float: left; }
+    main .large-8 {
+      width: 66.6666666667%;
+      float: left; }
+    main .large-9 {
+      width: 75%;
+      float: left; }
+    main .large-10 {
+      width: 83.3333333333%;
+      float: left; }
+    main .large-11 {
+      width: 91.6666666667%;
+      float: left; }
+    main .large-12 {
+      width: 100%;
+      float: left; } }
 
 /*# sourceMappingURL=styles.css.map */
