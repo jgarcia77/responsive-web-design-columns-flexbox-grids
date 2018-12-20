@@ -117,6 +117,16 @@ header {
 
 /*  ------------- NAV -------------  */
 nav {
+  background: #baa256;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #baa256 0%, #796831 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #baa256 0%, #796831 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #baa256 0%, #796831 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$startColor', endColorstr='$endColor',GradientType=0 );
+  /* IE6-9 */
   border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
   nav ul {
     display: flex; }
