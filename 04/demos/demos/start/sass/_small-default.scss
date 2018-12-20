@@ -94,28 +94,26 @@ main {
 		color: $primaryColor;
 	} // end h1
 	
-	figure { width: 50%; }
-	figure img { width: 100%; }
+	h2 {
+		font-size: 2rem;
+		margin: 1.5rem 0 .5rem 0;
+		color: $primaryColor;
+	}
     
-    figure.ex1 img {
+    article {
+		margin: .5rem $gutter;
+	}
+
+	figure {
+		float: left;
+	}
+    
+    figure.ex1 {
 		-webkit-clip-path: circle(50% at 50% 50%);
 		clip-path: circle(50% at 50% 50%);
+		shape-outside: circle(50% at 50% 50%);
+		margin: .5rem;
 	}
-
-	figure.ex2 img {
-		-webkit-clip-path: circle(100% at 0 0);
-		clip-path: circle(100% at 0 0);
-	}
-
-	figure.ex3 img {
-		-webkit-clip-path: circle(50% at 50% 0);
-		clip-path: circle(50% at 50% 0);
-	}
-    
-    
-    
-    
-    
     
     
     
