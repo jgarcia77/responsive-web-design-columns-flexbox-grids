@@ -40,9 +40,12 @@ header {
 nav {
 	
 	border-bottom:1px solid rgba(0,0,0,0.3);
-	
+	ul { 
+		display: flex; 
+	}
 	ul li {
 		border-right: 1px solid rgba(0,0,0,0.3);
+		flex-basis: 25%;
 
 	}// end li
 	ul li:last-child {border-right: none;  }
