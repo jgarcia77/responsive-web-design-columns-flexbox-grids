@@ -101,9 +101,16 @@ main {
 	} // end h2
 	
     
-    
-    
-    
+    div.parent {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 2%;
+		grid-row-gap: .5rem;
+	}
+	
+    div.parent article:nth-child(1) {
+		grid-column: 1 / span 2;
+	}
     
     
     
